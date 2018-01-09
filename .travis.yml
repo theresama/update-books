@@ -1,0 +1,14 @@
+language: python
+python: 3.6
+branches: master
+env:
+    global:
+        # GH_TOKEN
+        -   secure: "2XY/w5syfgOHzvNEHfFRDb4mRrQtSACMDOI51UXqa3b0sB8q5mbMhnO3ErW76/xbuZdO8O0fSGyvRoJQucPixx0AUsV2dhV6krdE+H+tWnWs75C1uBEUgv+EBI40VlMbRIAFmSoDb6F2ayspNtvD0FhyXFfxsaneHRUdQS6Cg/3vzX+Q9GPrwJZ++0x0nqB5vMZSovjIfEroOIe/hHiuj1wFiK3TpWMCPLzndrbdqD7I5aY4dQ9AR1IeTwEay8o85rkDtJkoQQN7bcrDTWooBmzkujvUp5VTTM6N7XtUsASYkk73j6s5bGbd+JnTcEaoVkpfUe4xVeyfJAboC4q02XtFq2brT57jLXWia3VUSUjb4Qg6+XFQudZAcW4VCMzxz6yxg7iW/cXlkOKKUyg/L9zMGlA0Rh/YQIag89mQ6UROAZC/qrupzs6EExLrTmwMPU+C3aV00p2VPp+CB/0tX8V/14lqRrTJ5WDPTXLcFcX0HKAcc1rugquWAsUNsguPdKqu3yKpGUoyQnbMVafJnZARwFE1QTKP6pMjb/blSZ4mnmn0AYdvy/MAT2m3SNdTPEoN6MQfjBXLHbSHAlRVCk7cV6Tmq9MFCY1mHBYtwL5JUOaDURnXu7XQ4roHpUeT6UhgE71UwbXlqL/KRGnuj/+qmjqPop2nCOZvKm/h/Ek="
+        # GOODREADS_KEY
+        -   secure: "MykGWEQpWQbRl+3NNjniSoFerqbOxurILi+HR6Sl+K4tUSi3KNoL4re4wIoRuxmEbXA3G3db46vvljkcgXxtCwnQ0np1e9XgiQF918fmwUyzheyl1SS3c5DjhKnhc9r+CyUfgcLVuJtec/rRnh+YjBHC05y8uAu9RKuv9UXiQ1pVEZ4X2dSSrtPA0NEzfpFL5xqQZ3+GuBrs86V3EmoVl324bRTjK/q8umQEeY2zH570qcu84xRzbzgZOHmprwOlL3CUsPFz/mEjDYTULMqTMHQ6APIBAMc5UTH7BuqOVzcyBxTb8ClVd6qxp3Jx1nNiBEhcqPMplOcNafztZKaiairhn6Jvgs/zefgFmqTEzHgWbXWBwMTHYTVCbxaJbsV44Ovgx6HzTcUCpQruAR3V/Rv6agE0RHYbUvxQxw3GYLkBNhdeDz89e1/V12w9uzFvJO58wRL53OmRS5EQ5otxSKZpnVjQe5c/5keaLbdsqZey/8LYW6XLb6r35D7Zv5+5hqedtmVLTJCQ3HyJ3hOQnmkjGGr0vMoylfRBYWsGurq3KTq4VWuk2ceqf5oWeA2gsc6BifvmITRZuh2eJO4O71IPK1yGhoHq5HXDUg1g0h78M6EoNof8hedOT49GKpv1mCbKYGA/f7/B7WjppoklCEDqxMgtXBZMs3ZEqUvoV1s="
+        -   GIT_AUTHOR_NAME='Theresa Ma'
+        -   GIT_COMMITTER_NAME='Theresa Ma'
+        -   GIT_AUTHOR_EMAIL=theresa01.ma@gmail.com
+        -   GIT_COMMITTER_EMAIL=theresa01.ma@gmail.com
+script: python update.py
